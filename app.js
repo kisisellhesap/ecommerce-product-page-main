@@ -1,5 +1,40 @@
 const page = document.querySelectorAll(".page");
+const piece = document.querySelector(".piece");
+const minus = document.querySelector(".minus");
+const plus = document.querySelector(".plus");
+const addBtn = document.querySelector(".add-cart");
+const money = document.querySelector(".money");
+const productName = document.querySelector(".product-name");
+const custom = document.querySelector(".custom");
+const products = document.querySelector(".products");
 
+
+const hamburgerIcon = document.querySelector(".hamburger-icon");
+const close = document.querySelector(".close");
+const menu = document.querySelector(".menu");
+const spaceDark = document.querySelector(".space-dark");
+
+const cartIcon = document.querySelector(".cart-icon");
+const cart = document.querySelector(".cart");
+
+
+const bigImage = document.querySelector(".big-image");
+const smallImages = document.querySelector(".small-images");
+
+const galleryClose = document.querySelector(".gallery-close");
+const lightBox = document.querySelector(".lightbox-design");
+const choosedImg = document.querySelector(".choosed-img");
+
+const smallGallery = document.querySelector(".small-gallery");
+
+const next = document.querySelector("#next");
+const previous = document.querySelector("#previous");
+
+
+
+const mobileGallery = document.querySelector(".mobile-gallery");
+const mobilePrevious = document.querySelector("#previous-mobile");
+const mobileNext = document.querySelector("#next-mobile");
 
 for (let a of page) {
 
@@ -18,10 +53,7 @@ for (let a of page) {
 }
 
 
-const hamburgerIcon = document.querySelector(".hamburger-icon");
-const close = document.querySelector(".close");
-const menu = document.querySelector(".menu");
-const spaceDark = document.querySelector(".space-dark");
+
 
 hamburgerIcon.addEventListener("click", function () {
 
@@ -37,25 +69,13 @@ close.addEventListener("click", function () {
 });
 
 
-const cartIcon = document.querySelector(".cart-icon");
-const cart = document.querySelector(".cart");
 
 
 cartIcon.addEventListener("click", function () {
     cart.classList.toggle("cart-effect");
 });
 
-const bigImage = document.querySelector(".big-image");
-const smallImages = document.querySelector(".small-images");
 
-const galleryClose = document.querySelector(".gallery-close");
-const lightBox = document.querySelector(".lightbox-design");
-const choosedImg = document.querySelector(".choosed-img");
-
-const smallGallery = document.querySelector(".small-gallery");
-
-const next = document.querySelector("#next");
-const previous = document.querySelector("#previous");
 
 let val = 0;
 
@@ -233,14 +253,7 @@ for (let smallimg of smallGallery.children) {
 
 
 
-const piece = document.querySelector(".piece");
-const minus = document.querySelector(".minus");
-const plus = document.querySelector(".plus");
-const addBtn = document.querySelector(".add-cart");
-const money = document.querySelector(".money");
-const productName = document.querySelector(".product-name");
-const custom = document.querySelector(".custom");
-const products = document.querySelector(".products");
+
 
 
 plus.addEventListener("click", function () {
@@ -366,9 +379,6 @@ const cartEmpty = function (custom) {
 cartEmpty(custom);
 
 
-const mobileGallery = document.querySelector(".mobile-gallery");
-const mobilePrevious = document.querySelector("#previous-mobile");
-const mobileNext = document.querySelector("#next-mobile");
 
 
 mobileGallery.innerHTML = `
