@@ -636,7 +636,7 @@ main {
         position: fixed;
         top: 0;
         left: -400px;
-        z-index: 11;
+        z-index: 1111;
         width: 40%;
         min-width: 250px;
         height: 100%;
@@ -690,7 +690,7 @@ main {
         position: fixed;
         left: 0;
         top: 0;
-        z-index: 11;
+        z-index: 111;
         opacity: 0;
         visibility: hidden;
         transition: all .4s ease;
